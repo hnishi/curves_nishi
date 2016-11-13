@@ -1,6 +1,11 @@
-#!/bin/bash
+#!/bin/bash -eu
 
-fn_in=md3_fin_vmd.pdb
+#
+# v1.1
+#
+
+#fn_in=md3_fin_vmd.pdb
+fn_in=$1
 fn_out=out_form.pdb
 
 cp $fn_in $fn_out 
